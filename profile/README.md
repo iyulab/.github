@@ -7,7 +7,7 @@
 - **[U-CMMS](https://iyulab.com/ucmms.html)** - Computerized Maintenance Management System
 
 ## 💻 Open Source
-Active contributors in ML/LLM, RAG, development libraries, web & WPF applications.  
+Active contributors in ML/LLM, RAG, development libraries, Web & Mobile & Desktop applications.  
 👉 [View our repositories](https://github.com/orgs/iyulab/repositories)
 
 ## 🌈 Contribution guidelines
