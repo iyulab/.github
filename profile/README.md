@@ -3,7 +3,7 @@
 
 ## 🚀 Our Services
 - **[Filer](https://www.filer-ai.com)** - AI-Powered File Management Utility
-- **[U-MES](https://iyulab.com/umes.html)** - Manufacturing Execution System
+- **[U-MES](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/iyulab1591071412301.u_mes?tab=Overview)** - Manufacturing Execution System
 - **[U-CMMS](https://iyulab.com/ucmms.html)** - Computerized Maintenance Management System
 
 ## 💻 Open Source
