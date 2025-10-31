@@ -15,7 +15,8 @@ Active contributors in ML/LLM, RAG, and application development. Here are our ke
 - **[Ironbees](https://github.com/iyulab/Ironbees)** - Convention-based multi-agent orchestration framework
 - **[Loopai](https://github.com/iyulab/Loopai)** - Human-in-the-loop AI self-improvement application framework
 - **[code-beaker](https://github.com/iyulab/code-beaker)** - Safe, fast code execution platform with multi-runtime architecture
-- 
+- **[MLNetPredict](https://github.com/iyulab/MLNetPredict)** - CLI tool for running predictions with trained ML.NET models
+  
 ### 📄 RAG & Document Processing
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - Transform documents into AI-ready, RAG-optimized chunks
 - **[WebFlux](https://github.com/iyulab/WebFlux)** - Transform web content into AI-ready, RAG-optimized chunks
