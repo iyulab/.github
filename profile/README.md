@@ -11,13 +11,12 @@ Active contributors in ML/LLM, RAG, and application development. Here are our ke
 
 ### 🤖 AI & LLM Infrastructure
 - **[ironhive](https://github.com/iyulab/ironhive)** - LLM orchestration framework for intelligent agent workflows
+- **[ironbees](https://github.com/iyulab/Ironbees)** - Convention-based multi-agent orchestration framework
 - **[LMSupplyDepot](https://github.com/iyulab/LMSupplyDepot)** - A comprehensive platform for managing, hosting, and deploying language models, providing a centralized depot for all your AI model resources on-premises
-- **[Ironbees](https://github.com/iyulab/Ironbees)** - Convention-based multi-agent orchestration framework
 - **[Loopai](https://github.com/iyulab/Loopai)** - Human-in-the-loop AI self-improvement application framework
 - **[code-beaker](https://github.com/iyulab/code-beaker)** - Safe, fast code execution platform with multi-runtime architecture
 - **[MLNetPredict](https://github.com/iyulab/MLNetPredict)** - CLI tool for running predictions with trained ML.NET models
 - **[MLoop](https://github.com/iyulab/MLoop)** - A modern CLI tool for building, running, and managing ML.NET models with filesystem-based MLOps.
-
   
 ### 📄 RAG & Document Processing
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - Transform documents into AI-ready, RAG-optimized chunks
