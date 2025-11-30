@@ -14,8 +14,8 @@
 - **[LMSupplyDepot](https://github.com/iyulab/LMSupplyDepot)** - Platform for managing, hosting, and deploying language models on-premises
 - **[Loopai](https://github.com/iyulab/Loopai)** - Human-in-the-loop AI self-improvement application framework
 - **[code-beaker](https://github.com/iyulab/code-beaker)** - Safe, fast code execution platform with multi-runtime architecture
-- **[local-embedder](https://github.com/iyulab/local-embedder)** - .NET library for local text embeddings with automatic HuggingFace model downloading
-- **[local-reranker](https://github.com/iyulab/local-reranker)** - Local semantic reranking for .NET — no API keys, no cloud
+- **[local-embedder](https://github.com/iyulab/local-embedder)** - local text embeddings with automatic model downloading
+- **[local-reranker](https://github.com/iyulab/local-reranker)** - Local semantic reranking with automatic model downloading
 
 ### 📄 RAG & Document Processing
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - Transform documents into AI-ready, RAG-optimized chunks
