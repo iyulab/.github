@@ -20,7 +20,7 @@
 ### 📄 RAG & Document Processing
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - Transform documents into AI-ready, RAG-optimized chunks
 - **[WebFlux](https://github.com/iyulab/WebFlux)** - Transform web content into AI-ready, RAG-optimized chunks
-- **[FluxCurator](https://github.com/iyulab/FluxCurator)** - Clean, protect, and chunk your text for RAG pipelines — no dependencies required
+- **[FluxCurator](https://github.com/iyulab/FluxCurator)** - Clean, protect, and chunk your text for RAG pipelines
 - **[FluxImprover](https://github.com/iyulab/FluxImprover)** - The Quality Layer for RAG Data Pipelines, Chunk Enrichment, QA Generation, ...
 - **[FluxIndex](https://github.com/iyulab/FluxIndex)** - Store and search chunks with intelligent RAG infrastructure
 - **[IndexThinking](https://github.com/iyulab/IndexThinking)** - Intelligent middleware optimizing FluxIndex search results for LLM context
