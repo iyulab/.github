@@ -24,6 +24,8 @@
 - **[FluxImprover](https://github.com/iyulab/FluxImprover)** - The Quality Layer for RAG Data Pipelines, Chunk Enrichment, QA Generation, ...
 - **[FluxIndex](https://github.com/iyulab/FluxIndex)** - Store and search chunks with intelligent RAG infrastructure
 - **[IndexThinking](https://github.com/iyulab/IndexThinking)** - Intelligent middleware optimizing FluxIndex search results for LLM context
+- **[memory-indexer](https://github.com/iyulab/memory-indexer)** - LLM long-term memory management
+
 
 ### 📊 ML & Data Science
 - **[MLoop](https://github.com/iyulab/MLoop)** - Build and run ML models in .NET with filesystem-based MLOps
