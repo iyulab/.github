@@ -14,9 +14,14 @@
 - **[LMSupplyDepot](https://github.com/iyulab/LMSupplyDepot)** - Platform for managing and running open-source LLMs locally with privacy-first architecture
 - **[Loopai](https://github.com/iyulab/Loopai)** - Program synthesis framework that transforms natural language into executable AI applications
 - **[code-beaker](https://github.com/iyulab/code-beaker)** - .NET code execution platform supporting Docker, Deno, Bun, Node.js, and Python runtimes
-- **[local-embedder](https://github.com/iyulab/local-embedder)** - .NET library for local text embeddings with automatic HuggingFace model downloading
-- **[local-reranker](https://github.com/iyulab/local-reranker)** - .NET library for local semantic reranking without API keys or cloud infrastructure
-
+- **[local-embedder](https://github.com/iyulab/local-embedder)** - .NET library for text-to-vector embeddings with automatic HuggingFace model downloading
+- **[local-reranker](https://github.com/iyulab/local-reranker)** - .NET library for semantic reranking using cross-encoder models
+- **[local-generator](https://github.com/iyulab/local-generator)** - .NET library for generative AI: text completion, chat, translation, OCR, image captioning, and more
+- **[local-transcriber](https://github.com/iyulab/local-transcriber)** - .NET library for speech-to-text using Whisper models
+- **[local-synthesizer](https://github.com/iyulab/local-synthesizer)** - .NET library for text-to-speech synthesis
+- **[local-detector](https://github.com/iyulab/local-detector)** - .NET library for object detection with bounding boxes and labels
+- **[local-segmenter](https://github.com/iyulab/local-segmenter)** - .NET library for image segmentation and masking
+  
 ### 📄 RAG & Document Processing
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - .NET library for converting documents into RAG-optimized chunks
 - **[WebFlux](https://github.com/iyulab/WebFlux)** - .NET SDK for preprocessing web content into RAG-optimized data chunks
