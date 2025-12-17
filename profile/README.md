@@ -13,7 +13,7 @@
 - **[ironbees](https://github.com/iyulab/ironbees)** - .NET framework for filesystem convention-based multi-agent management
 - **[Loopai](https://github.com/iyulab/Loopai)** - Program synthesis framework that transforms natural language into executable AI applications
 - **[code-beaker](https://github.com/iyulab/code-beaker)** - .NET code execution platform supporting Docker, Deno, Bun, Node.js, and Python runtimes
-- **[local-ai](https://github.com/iyulab/local-ai)** - .NET library for on-device AI inference: embeddings, reranking, text generation, chat, translation, OCR, image captioning, speech-to-text, text-to-speech, object detection, and segmentation—all without external API dependencies
+- **[lm-supply](https://github.com/iyulab/lm-supply)** - .NET library for on-device AI inference: embeddings, reranking, text generation, chat, translation, OCR, image captioning, speech-to-text, text-to-speech, object detection, and segmentation—all without external API dependencies
 
 ### 📄 RAG & Document Processing
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - .NET library for converting documents into RAG-optimized chunks
