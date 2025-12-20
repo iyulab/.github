@@ -22,6 +22,7 @@
 - **[FluxImprover](https://github.com/iyulab/FluxImprover)** - .NET library for enhancing document chunk quality using LLMs before RAG indexing
 - **[FluxIndex](https://github.com/iyulab/FluxIndex)** - .NET RAG library combining vector embeddings with hybrid keyword search
 - **[memory-indexer](https://github.com/iyulab/memory-indexer)** - MCP server providing semantic memory storage and retrieval for LLM applications
+- **[unhwp](https://github.com/iyulab/unhwp)** - A Rust library for extracting HWP/HWPX documents into structured Markdown with assets.
 
 ### 📊 ML & Data Science
 - **[MLoop](https://github.com/iyulab/MLoop)** - CLI tool for building and managing ML.NET models with filesystem-based MLOps
