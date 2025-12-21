@@ -13,7 +13,7 @@
 - **[ironbees](https://github.com/iyulab/ironbees)** - .NET framework for filesystem convention-based multi-agent management
 - **[Loopai](https://github.com/iyulab/Loopai)** - Program synthesis framework that transforms natural language into executable AI applications
 - **[code-beaker](https://github.com/iyulab/code-beaker)** - .NET code execution platform supporting Docker, Deno, Bun, Node.js, and Python runtimes
-- **[lm-supply](https://github.com/iyulab/lm-supply)** - .NET library for on-device AI inference: embeddings, reranking, text generation, chat, translation, OCR, image captioning, speech-to-text, text-to-speech, object detection, and segmentation—all without external API dependencies
+- **[lm-supply](https://github.com/iyulab/lm-supply)** - Local Model Supply for .NET — on-demand AI inference
 
 ### 📄 RAG & Document Processing
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - .NET library for converting documents into RAG-optimized chunks
@@ -22,6 +22,7 @@
 - **[FluxImprover](https://github.com/iyulab/FluxImprover)** - .NET library for enhancing document chunk quality using LLMs before RAG indexing
 - **[FluxIndex](https://github.com/iyulab/FluxIndex)** - .NET RAG library combining vector embeddings with hybrid keyword search
 - **[memory-indexer](https://github.com/iyulab/memory-indexer)** - MCP server providing semantic memory storage and retrieval for LLM applications
+- **[undoc](https://github.com/iyulab/undoc)** - A Rust library for extracting DOCX/PPTX/XLSX documents into structured Markdown with assets.
 - **[unhwp](https://github.com/iyulab/unhwp)** - A Rust library for extracting HWP/HWPX documents into structured Markdown with assets.
 
 ### 📊 ML & Data Science
