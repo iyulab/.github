@@ -22,7 +22,7 @@
 - **[FluxImprover](https://github.com/iyulab/FluxImprover)** - .NET library for enhancing document chunk quality using LLMs before RAG indexing
 - **[FluxIndex](https://github.com/iyulab/FluxIndex)** - .NET RAG library combining vector embeddings with hybrid keyword search
 - **[memory-indexer](https://github.com/iyulab/memory-indexer)** - MCP server providing semantic memory storage and retrieval for LLM applications
-- **[index-thinking](https://github.com/iyulab/index-thinking)** - Middleware SDK that handles LLM response continuation, reasoning extraction, and token tracking so you don't have to.
+- **[index-thinking](https://github.com/iyulab/index-thinking)** - Zero-boilerplate SDK for extended thinking extraction and response streaming
 - **[undoc](https://github.com/iyulab/undoc)** - A Rust library for extracting DOCX/PPTX/XLSX documents into structured Markdown with assets.
 - **[unhwp](https://github.com/iyulab/unhwp)** - A Rust library for extracting HWP/HWPX documents into structured Markdown with assets.
 
