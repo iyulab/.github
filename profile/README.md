@@ -51,6 +51,7 @@
 - **[vs-tools](https://github.com/iyulab/vs-tools)** - Visual Studio extension tools collection
 
 ### ⚙️ Industrial
+- **[U-Nesting](https://github.com/iyulab/U-Nesting)** - High-performance nesting(2D/3D) and bin packing algorithms in Rust with C FFI support
 - **[U-RAS](https://github.com/iyulab/U-RAS)** - Rust library for scheduling and resource allocation optimization with C FFI
 - **[U-APS](https://github.com/iyulab/U-APS-releases)** - Production scheduling system with Rust core and C# SDK
 
