@@ -14,6 +14,8 @@
 - **[Loopai](https://github.com/iyulab/Loopai)** - Program synthesis framework that transforms natural language into executable AI applications
 - **[code-beaker](https://github.com/iyulab/code-beaker)** - .NET code execution platform supporting Docker, Deno, Bun, Node.js, and Python runtimes
 - **[lm-supply](https://github.com/iyulab/lm-supply)** - Local Model Supply for .NET — on-demand AI inference
+- **[ToolCallParser](https://github.com/iyulab/ToolCallParser)** - Multi-provider tool call parsing and normalization for LLM applications. .NET
+- **[TokenMeter](https://github.com/iyulab/TokenMeter)** - Token counting, cost calculation, and usage tracking for LLM applications. .NET
 
 ### 📄 RAG & Document Processing
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - .NET library for converting documents into RAG-optimized chunks
@@ -23,6 +25,7 @@
 - **[FluxIndex](https://github.com/iyulab/FluxIndex)** - .NET RAG library combining vector embeddings with hybrid keyword search
 - **[memory-indexer](https://github.com/iyulab/memory-indexer)** - MCP server providing semantic memory storage and retrieval for LLM applications
 - **[index-thinking](https://github.com/iyulab/index-thinking)** - Zero-boilerplate SDK for extended thinking extraction and response streaming
+- **[unpdf](https://github.com/iyulab/unpdf)** - A Rust library for extracting PDF documents into structured Markdown with assets.
 - **[undoc](https://github.com/iyulab/undoc)** - A Rust library for extracting DOCX/PPTX/XLSX documents into structured Markdown with assets.
 - **[unhwp](https://github.com/iyulab/unhwp)** - A Rust library for extracting HWP/HWPX documents into structured Markdown with assets.
 
