@@ -55,9 +55,13 @@
 - **[vs-tools](https://github.com/iyulab/vs-tools)** - Visual Studio extension tools collection
 
 ### ⚙️ Industrial
-- **[U-Nesting](https://github.com/iyulab/U-Nesting)** - High-performance nesting(2D/3D) and bin packing algorithms in Rust with C FFI support
-- **[U-RAS](https://github.com/iyulab/U-RAS)** - Rust library for scheduling and resource allocation optimization with C FFI
-- **[U-APS](https://github.com/iyulab/U-APS-releases)** - Production scheduling system with Rust core and C# SDK
+- **[u-numflow](https://github.com/iyulab/u-numflow)** -- Mathematical primitives (rust)
+- **[u-metaheur](https://github.com/iyulab/u-metaheur)** -- Metaheuristic optimization (rust) 
+- **[u-geometry](https://github.com/iyulab/u-geometry)** -- Computational geometry (rust)
+- **[u-analytics](https://github.com/iyulab/u-analytics)** -- Statistical analytics (rust)
+- **[u-schedule](https://github.com/iyulab/u-schedule)** -- Scheduling framework (rust)
+- **[u-nesting](https://github.com/iyulab/u-nesting)** -- 2D/3D nesting and packing (rust)
+- **[u-routing](https://github.com/iyulab/u-routing)** -- Vehicle routing optimization (rust)
 - **[formulab](https://github.com/iyulab/formulab)** - Industrial & manufacturing calculation library for engineers (js)
 
 ### 🔐 Auth & Infrastructure
