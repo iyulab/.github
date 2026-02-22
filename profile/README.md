@@ -27,7 +27,6 @@ Utilities and SDKs for working with large language models.
 - **[ToolCallParser](https://github.com/iyulab/ToolCallParser)** - Multi-provider tool call parsing and normalization for LLM applications
 - **[TokenMeter](https://github.com/iyulab/TokenMeter)** - Token counting, cost calculation, and usage tracking for LLM applications
 - **[FluxGuard](https://github.com/iyulab/FluxGuard)** - Hybrid guardrail library for LLM applications
-- **[claude-plugins](https://github.com/iyulab/claude-plugins)** - Productivity plugin toolkit for Claude Code — issue triage, library maintenance, and more
 
 ### 📄 RAG Pipeline — Flux Ecosystem
 End-to-end Retrieval-Augmented Generation pipeline: Ingest → Parse → Preprocess → Index → Search.
@@ -72,6 +71,7 @@ Web components and UI libraries.
 
 ### 🛠️ .NET Developer Tools
 General-purpose libraries and utilities for .NET developers.
+- **[oops](https://github.com/iyulab/oops)** - Familiar Git commands, simplified for single files
 - **[DollarSignEngine](https://github.com/iyulab/DollarSignEngine)** - Runtime expression evaluation and string interpolation using Roslyn
 - **[FunctionX](https://github.com/iyulab/FunctionX)** - Excel-compatible formula evaluation engine
 - **[http-test](https://github.com/iyulab/http-test)** - Execute HTTP tests from .http files with automatic assertions
@@ -85,6 +85,7 @@ General-purpose libraries and utilities for .NET developers.
 
 ### 🔐 Auth & Infrastructure
 - **[Authway](https://github.com/iyulab/Authway)** - OAuth 2.0 / OpenID Connect authentication system built on Ory Hydra (Go)
+- **[system-coroner](https://github.com/iyulab/system-coroner)** - Automated IoC collection and LLM-powered forensic report generator
 
 👉 [View all repositories](https://github.com/orgs/iyulab/repositories)
 
