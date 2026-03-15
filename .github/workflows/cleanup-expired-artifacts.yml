@@ -2,7 +2,6 @@ name: Cleanup Expired Artifacts
 
 on:
   schedule:
-    # Run daily at 03:00 UTC (12:00 KST)
     - cron: '0 3 * * *'
   workflow_dispatch:
 
@@ -13,64 +12,48 @@ jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
-      - name: Cleanup expired artifacts across all private repos
+      - name: Delete expired artifacts
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.ORG_ADMIN_TOKEN }}
           script: |
-            const org = 'iyulab';
             let totalDeleted = 0;
             let totalFreedBytes = 0;
 
-            const repos = await github.paginate(github.rest.repos.listForOrg, {
-              org,
-              type: 'private',
-              per_page: 100,
-            });
+            const artifacts = await github.paginate(
+              github.rest.actions.listArtifactsForRepo,
+              { owner: context.repo.owner, repo: context.repo.repo, per_page: 100 }
+            );
 
-            core.info(`Found ${repos.length} private repos`);
+            const expired = artifacts.filter(a => a.expired);
+            if (expired.length === 0) {
+              core.info('No expired artifacts found');
+              return;
+            }
 
-            for (const repo of repos) {
+            core.info(`Found ${expired.length} expired artifacts`);
+
+            for (const artifact of expired) {
               try {
-                const artifacts = await github.paginate(
-                  github.rest.actions.listArtifactsForRepo,
-                  { owner: org, repo: repo.name, per_page: 100 }
-                );
-
-                const expired = artifacts.filter(a => a.expired);
-                if (expired.length === 0) continue;
-
-                const repoBytes = expired.reduce((sum, a) => sum + a.size_in_bytes, 0);
-                core.info(`${repo.name}: ${expired.length} expired (${(repoBytes / 1048576).toFixed(1)} MB)`);
-
-                for (const artifact of expired) {
-                  try {
-                    await github.rest.actions.deleteArtifact({
-                      owner: org,
-                      repo: repo.name,
-                      artifact_id: artifact.id,
-                    });
-                    totalDeleted++;
-                    totalFreedBytes += artifact.size_in_bytes;
-                  } catch (err) {
-                    core.warning(`Failed to delete ${repo.name}/${artifact.name}: ${err.message}`);
-                  }
-                }
+                await github.rest.actions.deleteArtifact({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  artifact_id: artifact.id,
+                });
+                totalDeleted++;
+                totalFreedBytes += artifact.size_in_bytes;
+                core.info(`Deleted: ${artifact.name} (${(artifact.size_in_bytes / 1048576).toFixed(1)} MB)`);
               } catch (err) {
-                core.warning(`Failed to list artifacts for ${repo.name}: ${err.message}`);
+                core.warning(`Failed to delete ${artifact.name}: ${err.message}`);
               }
             }
 
-            core.info(`\n=== Summary ===`);
-            core.info(`Deleted: ${totalDeleted} expired artifacts`);
-            core.info(`Freed: ${(totalFreedBytes / 1048576).toFixed(1)} MB`);
+            core.info(`\nDeleted ${totalDeleted} artifacts, freed ${(totalFreedBytes / 1048576).toFixed(1)} MB`);
 
             await core.summary
-              .addHeading('Artifact Cleanup Results')
+              .addHeading('Artifact Cleanup')
               .addTable([
                 [{data: 'Metric', header: true}, {data: 'Value', header: true}],
-                ['Repos scanned', String(repos.length)],
-                ['Artifacts deleted', String(totalDeleted)],
-                ['Storage freed', `${(totalFreedBytes / 1048576).toFixed(1)} MB`],
+                ['Deleted', String(totalDeleted)],
+                ['Freed', `${(totalFreedBytes / 1048576).toFixed(1)} MB`],
               ])
               .write();
