@@ -3,6 +3,7 @@
 
 ## 🚀 Our Services
 - **[Filer](https://www.filer-ai.com)** - AI-Powered File Management Utility
+- **[Forge Tools](https://www.forge-tools.work)** - Local AI Desktop Tools for Industrial Professionals (SPC, FMEA, 8D, DOE, Lens, SOP)
 - **[U-Sphere](https://marketplace.microsoft.com/en-us/product/iyulab1591071412301.u_sphere_app)** - E2E Unified AI Knowledge Service Platform
 - **[U-MES](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/iyulab1591071412301.u_mes?tab=Overview)** - Manufacturing Execution System
 - **[U-CMMS](https://iyulab.com/solutions/u-cmms)** - Computerized Maintenance Management System
@@ -22,6 +23,7 @@ Core framework for building LLM-powered agent applications in .NET.
 ### 🔧 LLM Developer Tools
 Utilities and SDKs for working with large language models.
 - **[lm-supply](https://github.com/iyulab/lm-supply)** - Local Model Supply for .NET — on-demand AI inference
+- **[Pulsa](https://github.com/iyulab/pulsa)** - Document processing platform — file-watcher automation tools & MCP server (STT, LLM, AudioConvert, Vault, PDFDiff)
 - **[memory-indexer](https://github.com/iyulab/memory-indexer)** - MCP server providing semantic memory storage and retrieval for LLM applications
 - **[index-thinking](https://github.com/iyulab/index-thinking)** - Zero-boilerplate SDK for extended thinking extraction and response streaming
 - **[ToolCallParser](https://github.com/iyulab/ToolCallParser)** - Multi-provider tool call parsing and normalization for LLM applications
