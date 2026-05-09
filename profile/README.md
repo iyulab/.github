@@ -43,6 +43,7 @@ High-performance document extraction libraries written in Rust.
 - **[unpdf](https://github.com/iyulab/unpdf)** - Extract PDF documents into structured Markdown with assets
 - **[undoc](https://github.com/iyulab/undoc)** - Extract DOCX/PPTX/XLSX documents into structured Markdown with assets
 - **[unhwp](https://github.com/iyulab/unhwp)** - Extract HWP/HWPX documents into structured Markdown with assets
+- **[pageseer](https://github.com/iyulab/pageseer)** - Rust CLI & library that converts PDF, Office, and HWP documents into page images.
 
 ### ⚙️ Industrial Optimization (Rust)
 Domain-agnostic optimization and analytics libraries for manufacturing and logistics.
