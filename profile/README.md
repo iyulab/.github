@@ -76,7 +76,7 @@ Web components and UI libraries.
 - **[Declart](https://github.com/iyulab/Declart)** - Prose-first diagram library — declare structure in TOML/JSON, get publication-ready SVG output via Rust/WASM engine with VS Code live preview
 
 ### 🛠️ Developer Tools
-General-purpose libraries and utilities for .NET developers.
+General-purpose libraries and utilities for developers across languages.
 - **[oops](https://github.com/iyulab/oops)** - Single-file version control tool — snapshot, diff, and restore any file without Git, powered by an embedded go-git library
 - **[DollarSignEngine](https://github.com/iyulab/DollarSignEngine)** - Runtime C# expression evaluator powered by Roslyn — dynamic string interpolation, LINQ support, and expression caching
 - **[FunctionX](https://github.com/iyulab/FunctionX)** - Excel-compatible formula engine — 38 built-in functions, Roslyn-powered compilation, and sandboxed async execution
