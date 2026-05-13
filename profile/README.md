@@ -16,20 +16,21 @@ Core framework for building LLM-powered agent applications in .NET.
 - **[ironbees](https://github.com/iyulab/ironbees)** - GitOps-style declarative AI agent management — define agents with YAML and Markdown, orchestrate multi-agent workflows, and track costs via TokenMeter
 - **[ironhive-agent](https://github.com/iyulab/ironhive-agent)** - Reusable .NET agent engine with streaming loop, smart context compaction, MCP plugin integration, and built-in safety permission rules
 - **[ironhive-flux](https://github.com/iyulab/ironhive-flux)** - Bridge SDK connecting IronHive with the Flux ecosystem for embedding generation, text completion, image-to-text, and RAG chatbot development
-- **[OrbitMesh](https://github.com/iyulab/OrbitMesh)** - .NET infrastructure SDK for distributed agent systems — WebSocket connectivity, job orchestration, and state synchronization via SignalR
-- **[Loopai](https://github.com/iyulab/Loopai)** - Framework that compiles natural language specs into locally executable programs for cost-efficient, privacy-preserving AI task processing
-- **[code-beaker](https://github.com/iyulab/code-beaker)** - Multi-runtime sandboxed code execution platform supporting Docker, Deno, Bun, Node.js, and Python via WebSocket and JSON-RPC 2.0
 
 ### 🔧 LLM Developer Tools
 Utilities and SDKs for working with large language models.
 - **[lm-supply](https://github.com/iyulab/lm-supply)** - On-demand local AI model inference for .NET — lazy loading, hardware-aware GPU/CPU selection, 10 task types including embeddings, generation, vision, and audio
-- **[Pulsa](https://github.com/iyulab/pulsa)** - File-watching automation platform that chains audio conversion, speech-to-text, and LLM processing into document pipelines with MCP server integration
 - **[memory-indexer](https://github.com/iyulab/memory-indexer)** - MCP server and .NET SDK implementing a 3-axis memory system (type × scope × tier) for LLM context management beyond finite context windows
 - **[index-thinking](https://github.com/iyulab/index-thinking)** - .NET building block for LLM integration — truncation recovery, reasoning extraction, sliding-window context, and token budget monitoring
 - **[ToolCallParser](https://github.com/iyulab/ToolCallParser)** - Unified .NET parser for LLM tool calls across 20+ providers with auto-detection and extensible custom parser support
 - **[TokenMeter](https://github.com/iyulab/TokenMeter)** - Token counting, cost calculation, and session-based usage tracking across 12 LLM providers
 - **[FluxGuard](https://github.com/iyulab/FluxGuard)** - 3-layer .NET guardrail library for LLM apps — covers prompt injection, jailbreaks, toxicity, PII masking, and format validation
-- **[shell-tunnel](https://github.com/iyulab/shell-tunnel)** - Single-binary tool exposing remote terminal access to AI agents via REST and WebSocket API with cross-platform PTY support
+- **[Loopai](https://github.com/iyulab/Loopai)** - Framework that compiles natural language specs into locally executable programs for cost-efficient, privacy-preserving AI task processing
+
+### ⚡ AI Runtime & Automation
+Execution environments and automation platforms for AI-integrated workflows.
+- **[code-beaker](https://github.com/iyulab/code-beaker)** - Multi-runtime sandboxed code execution platform supporting Docker, Deno, Bun, Node.js, and Python via WebSocket and JSON-RPC 2.0
+- **[Pulsa](https://github.com/iyulab/pulsa)** - File-watching automation platform that chains audio conversion, speech-to-text, and LLM processing into document pipelines with MCP server integration
 
 ### 📄 RAG Pipeline — Flux Ecosystem
 End-to-end Retrieval-Augmented Generation pipeline: Ingest → Parse → Preprocess → Index → Search.
@@ -90,9 +91,11 @@ General-purpose libraries and utilities for developers across languages.
 - **[vs-tools](https://github.com/iyulab/vs-tools)** - Visual Studio extension utilities — copy folder trees, extract text from selected files, and streamline clipboard operations on project items
 - **[ObjectPath](https://github.com/iyulab/ObjectPath)** - .NET library for retrieving values from objects using string path expressions — dot notation, bracket indexing, and reflection caching
 - **[m3l](https://github.com/iyulab/m3l)** - Markdown-based data modeling language — define schemas in plain Markdown, parsed into AST with models, enums, interfaces, inheritance, and multi-file imports
+- **[shell-tunnel](https://github.com/iyulab/shell-tunnel)** - Single-binary tool exposing remote terminal access via REST and WebSocket API with cross-platform PTY support and API key authentication
 
 ### 🔐 Auth & Infrastructure
 - **[Authway](https://github.com/iyulab/Authway)** - Standards-compliant OAuth 2.0 / OIDC platform built on Ory Hydra — multi-tenancy, PKCE, passwordless flows, TypeScript SDKs for vanilla JS, React, and Next.js
+- **[OrbitMesh](https://github.com/iyulab/OrbitMesh)** - .NET infrastructure SDK for distributed systems — abstracts WebSocket connectivity, message reliability, job orchestration, and state synchronization via SignalR
 - **[system-coroner](https://github.com/iyulab/system-coroner)** - Automated server intrusion forensics — collects evidence via PowerShell/Bash, applies Sigma rules, and generates LLM-powered HTML reports with MITRE ATT&CK mapping
 
 👉 [View all repositories](https://github.com/orgs/iyulab/repositories)
