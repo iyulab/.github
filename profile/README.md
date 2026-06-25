@@ -3,6 +3,7 @@
 
 ## 🚀 Our Services
 - **[Filer](https://www.filer-ai.com)** - AI-Powered File Management Utility
+- **[Textree](https://www.textree.me)** - A pretty, free, local-first note app — free AI built in, one-click to the web.
 - **[Forge Tools](https://www.forge-tools.work)** - Local AI Desktop Tools for Industrial Professionals (SPC, FMEA, 8D, DOE, Lens, SOP)
 - **[U-Sphere](https://marketplace.microsoft.com/en-us/product/iyulab1591071412301.u_sphere_app)** - E2E Unified AI Knowledge Service Platform
 - **[U-MES](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/iyulab1591071412301.u_mes?tab=Overview)** - Manufacturing Execution System
