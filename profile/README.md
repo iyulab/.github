@@ -2,12 +2,19 @@
 🙋‍♀️ **[iyulab](https://iyulab.com)** is a tech company based in Korea.
 
 ## 🚀 Our Services
-- **[Filer](https://www.filer-ai.com)** - AI-Powered File Management Utility
-- **[Textree](https://www.textree.me)** - A pretty, free, local-first note app — free AI built in, one-click to the web.
+
+### 🏭 Enterprise & Manufacturing Platforms
+On-premises AI platforms for industrial and enterprise operations.
 - **[Forge Tools](https://www.forge-tools.work)** - Local AI Desktop Tools for Industrial Professionals (SPC, FMEA, 8D, DOE, Lens, SOP)
 - **[U-Sphere](https://marketplace.microsoft.com/en-us/product/iyulab1591071412301.u_sphere_app)** - E2E Unified AI Knowledge Service Platform
 - **[U-MES](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/iyulab1591071412301.u_mes?tab=Overview)** - Manufacturing Execution System
 - **[U-CMMS](https://iyulab.com/solutions/u-cmms)** - Computerized Maintenance Management System
+- **[U-Vision](https://github.com/iyulab/U-Vision)** - Universal AI vision inspection PWA — VLM triages from day one, a dedicated ML model progressively takes over verdicts via a reliability flywheel; on-premises, zero external egress
+
+### 🗂️ Personal & Productivity Apps
+Local-first apps with AI built in — for individuals and teams.
+- **[Filer](https://www.filer-ai.com)** - AI-Powered File Management Utility
+- **[Textree](https://www.textree.me)** - A pretty, free, local-first note app — free AI built in, one-click to the web.
 
 ## 💻 Open Source Projects (80+ public repos)
 
@@ -79,6 +86,9 @@ Web components and UI libraries.
 
 ### 🛠️ Developer Tools
 General-purpose libraries and utilities for developers across languages.
+- **[BareChat](https://github.com/iyulab/BareChat)** - Ultra-lightweight, embeddable chat module for .NET — single-DLL, in-process, zero-infra. Slack-style channel chat mounted with one line of middleware; embedded UI reused across web/PWA and WPF (WebView2), with SignalR realtime and VAPID web push
+- **[cronex](https://github.com/iyulab/cronex)** - Extended cron expressions for .NET — timezone, interval, one-shot, jitter, stagger, window, and expiry in a single string, plus a minimal trigger engine. Zero-dependency core
+- **[KoreanHolidays.NET](https://github.com/iyulab/KoreanHolidays.NET)** - Korean public holidays (including substitute holidays) for .NET — dependency-free (BCL only), multi-targets net8/9/10
 - **[oops](https://github.com/iyulab/oops)** - Single-file version control tool — snapshot, diff, and restore any file without Git, powered by an embedded go-git library
 - **[DollarSignEngine](https://github.com/iyulab/DollarSignEngine)** - Runtime C# expression evaluator powered by Roslyn — dynamic string interpolation, LINQ support, and expression caching
 - **[FunctionX](https://github.com/iyulab/FunctionX)** - Excel-compatible formula engine — 38 built-in functions, Roslyn-powered compilation, and sandboxed async execution
