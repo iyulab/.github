@@ -67,6 +67,7 @@ Domain-agnostic optimization and analytics libraries for manufacturing and logis
 - **[u-routing](https://github.com/iyulab/u-routing)** — Vehicle routing optimization (TSP, CVRP, VRPTW) with multiple solvers and WASM/npm support
 - **[u-doe](https://github.com/iyulab/u-doe)** — Statistical Design of Experiments — factorial/RSM/Taguchi designs, ANOVA, power analysis, and multi-response optimization
 - **[formulab](https://github.com/iyulab/formulab)** — 174 research-backed industrial engineering formulas across 14 domains with zero dependencies (TypeScript)
+- **[online-tools](https://online-tools.work)** — 197 free, fast, and accurate calculators for engineering professionals
 
 ### 📊 ML & Data
 Machine learning tooling and data management.
