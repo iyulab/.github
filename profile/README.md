@@ -10,7 +10,7 @@ On-premises AI platforms for industrial and enterprise operations.
 - **[U-MES](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/iyulab1591071412301.u_mes?tab=Overview)** - Manufacturing Execution System
 - **[U-CMMS](https://iyulab.com/solutions/u-cmms)** - Computerized Maintenance Management System
 - **[U-Vision](https://github.com/iyulab/U-Vision)** - Universal AI vision inspection PWA — VLM triages from day one, a dedicated ML model progressively takes over verdicts via a reliability flywheel; on-premises, zero external egress
-- **[saem](https://github.com/iyulab/saem)** - On-premises cross-system intelligence layer — connects data scattered across existing line-of-business systems into one ontology and answers with cited paths, read-only, ownership staying with the source systems
+- **[U-Board](https://github.com/iyulab/U-Board)** - Spatial dashboard authoring middleware — build data-bound views on a floor plan, network diagram, or map and embed them anywhere on the web, against any source system through its adapter surface
 
 ### 🗂️ Personal & Productivity Apps
 Local-first apps with AI built in — for individuals and teams.
@@ -45,13 +45,13 @@ Execution environments and automation platforms for AI-integrated workflows.
 - **[momos](https://github.com/iyulab/momos)** - Autonomous inspection agent for runtime and UX defects static analysis misses — interacts with the running application in a sandbox and reports only reproduced findings, with the evidence
 
 ### 🧬 Ontology & Runtime Change
-Storage, schema, and inference layers that let an application's data model — and the UI over it — change at runtime.
+Ontology-driven storage, schema, and inference layers — including making an application's data model, and the UI over it, changeable at runtime.
 - **[MorphDB](https://github.com/iyulab/MorphDB)** - Runtime-flexible PostgreSQL service with dynamic schema management, multi-protocol access (REST/GraphQL/OData), and multi-tenant support
 - **[Formbase](https://github.com/iyulab/Formbase)** - Raw-first document engine — store data before designing its schema, then project a typed, queryable structure once you declare one. Built on MorphDB
 - **[Eyu](https://github.com/iyulab/Eyu)** - Source-agnostic ontology inference engine — turns declared structure and raw records into proposed entities, relations, and grounded claims that cite the records backing them
 - **[Formology](https://github.com/iyulab/Formology)** - Form-first development — treat the document as the domain model so a paper record's entities and relationships survive into the software instead of collapsing into CRUD tables
 - **[vivarium](https://github.com/iyulab/vivarium)** - Sandboxed runtime for AI-generated UI — render untrusted generated code safely, with stable element identity and inspection built in. Changeset contract, agent harness, and lifecycle staging live in the sibling `vivarium-*` repositories
-- **[U-Board](https://github.com/iyulab/U-Board)** - Spatial dashboard authoring middleware — build data-bound views on a floor plan, network diagram, or map and embed them anywhere on the web, against any source system through its adapter surface
+- **[saem](https://github.com/iyulab/saem)** - On-premises cross-system intelligence layer — connects data scattered across existing line-of-business systems into one ontology and answers with cited paths, read-only, ownership staying with the source systems
 
 ### 📄 RAG Pipeline — Flux Ecosystem
 End-to-end Retrieval-Augmented Generation pipeline: Ingest → Parse → Preprocess → Index → Search.
