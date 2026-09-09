@@ -50,10 +50,7 @@ Storage, schema, and inference layers that let an application's data model — a
 - **[Formbase](https://github.com/iyulab/Formbase)** - Raw-first document engine — store data before designing its schema, then project a typed, queryable structure once you declare one. Built on MorphDB
 - **[Eyu](https://github.com/iyulab/Eyu)** - Source-agnostic ontology inference engine — turns declared structure and raw records into proposed entities, relations, and grounded claims that cite the records backing them
 - **[Formology](https://github.com/iyulab/Formology)** - Form-first development — treat the document as the domain model so a paper record's entities and relationships survive into the software instead of collapsing into CRUD tables
-- **[vivarium](https://github.com/iyulab/vivarium)** - Sandboxed runtime for AI-generated UI — render untrusted generated code safely, with stable element identity and inspection built in
-- **[vivarium-changeset](https://github.com/iyulab/vivarium-changeset)** - A versioned, fingerprinted contract for describing application change — schema, UI, and seed data as one reviewable, appliable unit
-- **[vivarium-agent](https://github.com/iyulab/vivarium-agent)** - Agent harness that turns natural-language intent and on-screen selection into verified changesets, with pluggable domain knowledge
-- **[vivarium-stage](https://github.com/iyulab/vivarium-stage)** - Changeset lifecycle service — branch, simulate, atomically apply, and roll back live application changes
+- **[vivarium](https://github.com/iyulab/vivarium)** - Sandboxed runtime for AI-generated UI — render untrusted generated code safely, with stable element identity and inspection built in. Changeset contract, agent harness, and lifecycle staging live in the sibling `vivarium-*` repositories
 - **[U-Board](https://github.com/iyulab/U-Board)** - Spatial dashboard authoring middleware — build data-bound views on a floor plan, network diagram, or map and embed them anywhere on the web, against any source system through its adapter surface
 
 ### 📄 RAG Pipeline — Flux Ecosystem
