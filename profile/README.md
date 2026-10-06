@@ -39,7 +39,6 @@ Utilities and SDKs for working with large language models.
 - **[TokenMeter](https://github.com/iyulab/TokenMeter)** - Token counting, cost calculation, and session-based usage tracking across 12 LLM providers
 - **[FluxGuard](https://github.com/iyulab/FluxGuard)** - 3-layer .NET guardrail library for LLM apps — covers prompt injection, jailbreaks, toxicity, PII masking, and format validation
 - **[Gil](https://github.com/iyulab/Gil)** - Habit runtime for LLM decisions — confirmed-answer memory and cheap single-token judgments in front of the model, so only what they cannot settle goes to full generation; every call recorded and priced
-- **[Loopai](https://github.com/iyulab/Loopai)** - Framework that compiles natural language specs into locally executable programs for cost-efficient, privacy-preserving AI task processing
 
 ### ⚡ AI Runtime & Automation
 Execution environments and automation platforms for AI-integrated workflows.
