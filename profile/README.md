@@ -16,6 +16,7 @@ On-premises AI platforms for industrial and enterprise operations.
 Local-first apps with AI built in — for individuals and teams.
 - **[Filer](https://www.filer-ai.com)** - AI-Powered File Management Utility
 - **[Textree](https://www.textree.me)** ([repo](https://github.com/iyulab/textree)) - A pretty, free, local-first note app — free AI built in, one-click to the web.
+- **[Bohm](https://bohmbrowser.com)** ([downloads](https://github.com/iyulab/bohm-releases)) - The AI browser where you describe an app and keep using it — its data stays on your PC and it keeps working offline, with a chat beside your tabs that reads the pages you have open
 
 ## 💻 Open Source Projects
 
@@ -51,6 +52,7 @@ Ontology-driven storage, schema, and inference layers — including making an ap
 - **[Eyu](https://github.com/iyulab/Eyu)** - Source-agnostic ontology inference engine — turns declared structure and raw records into proposed entities, relations, and grounded claims that cite the records backing them
 - **[Formology](https://github.com/iyulab/Formology)** - Form-first development — treat the document as the domain model so a paper record's entities and relationships survive into the software instead of collapsing into CRUD tables
 - **[vivarium](https://github.com/iyulab/vivarium)** - Sandboxed runtime for AI-generated UI — render untrusted generated code safely, with stable element identity and inspection built in. Changeset contract, agent harness, and lifecycle staging live in the sibling `vivarium-*` repositories
+- **[bohm-runtime](https://github.com/iyulab/bohm-runtime)** - Local-first application runtime — executes a declaratively described application, sandboxes generated code, and applies changes only as reviewed change sets, with existing data preserved. Runs on a workstation or headless on a server
 - **[saem](https://github.com/iyulab/saem)** - On-premises cross-system intelligence layer — connects data scattered across existing line-of-business systems into one ontology and answers with cited paths, read-only, ownership staying with the source systems
 
 ### 📄 RAG Pipeline — Flux Ecosystem
