@@ -3,6 +3,12 @@
 
 ## 🚀 Our Services
 
+### 🗂️ Personal & Productivity Apps
+Local-first apps with AI built in — for individuals and teams.
+- **[Filer](https://www.filer-ai.com)** - AI-Powered File Management Utility
+- **[Bohm](https://bohmbrowser.com)** - The AI browser where you describe an app and keep using it — its data stays on your PC and it keeps working offline, with a chat beside your tabs that reads the pages you have open
+- **[Textree](https://www.textree.me)** - A pretty, free, local-first note app — free AI built in, one-click to the web.
+
 ### 🏭 Enterprise & Manufacturing Platforms
 On-premises AI platforms for industrial and enterprise operations.
 - **[Forge Tools](https://www.forge-tools.work)** - Local AI Desktop Tools for Industrial Professionals (SPC, FMEA, 8D, DOE, Lens, SOP)
@@ -12,12 +18,6 @@ On-premises AI platforms for industrial and enterprise operations.
 - **[U-Draw](https://draw.u-platform.kr)** - Drawing AI for manufacturers who work from received drawings — every value read carries its source, every change is proven by numbers, and proposals stay as redlines over the original; quoting first, from order intake through inspection, on-premises
 - **[U-Vision](https://github.com/iyulab/U-Vision)** - Universal AI vision inspection PWA — VLM triages from day one, a dedicated ML model progressively takes over verdicts via a reliability flywheel; on-premises, zero external egress
 - **[U-Board](https://github.com/iyulab/U-Board)** - Spatial dashboard authoring middleware — build data-bound views on a floor plan, network diagram, or map and embed them anywhere on the web, against any source system through its adapter surface
-
-### 🗂️ Personal & Productivity Apps
-Local-first apps with AI built in — for individuals and teams.
-- **[Filer](https://www.filer-ai.com)** - AI-Powered File Management Utility
-- **[Textree](https://www.textree.me)** ([repo](https://github.com/iyulab/textree)) - A pretty, free, local-first note app — free AI built in, one-click to the web.
-- **[Bohm](https://bohmbrowser.com)** ([downloads](https://github.com/iyulab/bohm-releases)) - The AI browser where you describe an app and keep using it — its data stays on your PC and it keeps working offline, with a chat beside your tabs that reads the pages you have open
 
 ## 💻 Open Source Projects
 
@@ -58,7 +58,7 @@ Ontology-driven storage, schema, and inference layers — including making an ap
 - **[saem](https://github.com/iyulab/saem)** - On-premises cross-system intelligence layer — connects data scattered across existing line-of-business systems into one ontology and answers with cited paths, read-only, ownership staying with the source systems
 
 ### 📄 RAG Pipeline — Flux Ecosystem
-End-to-end Retrieval-Augmented Generation pipeline: Ingest → Parse → Preprocess → Index → Search. Shared contracts live in [flux-abstractions](https://github.com/iyulab/flux-abstractions).
+End-to-end Retrieval-Augmented Generation pipeline: Ingest → Parse → Preprocess → Index → Search. Shared contracts live in `flux-abstractions`.
 - **[FluxFeed](https://github.com/iyulab/FluxFeed)** - .NET document ingestion pipeline for RAG — tracks a folder of files in a git-backed vault, extracts and chunks them, and keeps a vector index in sync
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - Transform PDF, DOCX, HWP, and more into RAG-optimized chunks via a 5-stage pipeline with Rust-based FFI readers
 - **[WebFlux](https://github.com/iyulab/WebFlux)** - Crawl, extract, and chunk web content into RAG-ready formats with interface-based AI service integration
@@ -102,7 +102,7 @@ Domain-agnostic optimization and analytics libraries for manufacturing and logis
 
 ### 📊 ML & Data
 Machine learning tooling and data management.
-- **[MLoop](https://github.com/iyulab/MLoop)** - ML.NET CLI tool for automated model training with AutoML, dynamic scripting, and 15 task types from tabular classification to deep learning ([MCP server](https://github.com/iyulab/mloop-mcp))
+- **[MLoop](https://github.com/iyulab/MLoop)** - ML.NET CLI tool for automated model training with AutoML, dynamic scripting, and 15 task types from tabular classification to deep learning
 - **[HoneAI](https://github.com/iyulab/HoneAI)** - Provenance-first predictions for .NET — layered ML+LLM reasoning with confidence-gated escalation and human-in-the-loop review
 - **[DataLens](https://github.com/iyulab/DataLens)** - Exploratory data analysis library — profiles datasets with clustering, outlier detection, PCA, correlation, and changepoint detection
 - **[Schemorph](https://github.com/iyulab/Schemorph)** - Declarative, SQL-first database schema management — diff desired-state SQL files against a live database and apply the reviewed plan, with procedures, functions, and versioned data migrations first-class (SQL Server, PostgreSQL)
@@ -111,7 +111,7 @@ Machine learning tooling and data management.
 
 ### 🖥️ Frontend & UI Components
 Web components and UI libraries.
-- **[formdown](https://github.com/iyulab/formdown)** - Markdown-like syntax for building interactive HTML forms — framework-agnostic web components with real-time validation ([formdown.dev](https://formdown.dev))
+- **[formdown](https://github.com/iyulab/formdown)** - Markdown-like syntax for building interactive HTML forms — framework-agnostic web components with real-time validation
 - **[u-widgets](https://github.com/iyulab/u-widgets)** - Declarative, data-driven web component library for data visualization — charts, KPIs, gauges, and tables with AI/MCP integration
 - **[flex-table](https://github.com/iyulab/flex-table)** - Schema-agnostic data grid web component — virtual scrolling for 100k+ rows, inline editing, and Excel-compatible clipboard
 - **[canvas-kit](https://github.com/iyulab/canvas-kit)** - Framework-neutral canvas library for visual editing — drag/resize/rotate, undo/redo, Konva.js designer, and lightweight HTML viewer
