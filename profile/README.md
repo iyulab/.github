@@ -37,6 +37,7 @@ Utilities and SDKs for working with large language models.
 - **[ToolCallParser](https://github.com/iyulab/ToolCallParser)** - Unified .NET parser for LLM tool calls across 20+ providers with auto-detection and extensible custom parser support
 - **[TokenMeter](https://github.com/iyulab/TokenMeter)** - Token counting, cost calculation, and session-based usage tracking across 12 LLM providers
 - **[FluxGuard](https://github.com/iyulab/FluxGuard)** - 3-layer .NET guardrail library for LLM apps — covers prompt injection, jailbreaks, toxicity, PII masking, and format validation
+- **[Gil](https://github.com/iyulab/Gil)** - Habit runtime for LLM decisions — confirmed-answer memory and cheap single-token judgments in front of the model, so only what they cannot settle goes to full generation; every call recorded and priced
 - **[Loopai](https://github.com/iyulab/Loopai)** - Framework that compiles natural language specs into locally executable programs for cost-efficient, privacy-preserving AI task processing
 
 ### ⚡ AI Runtime & Automation
@@ -56,7 +57,7 @@ Ontology-driven storage, schema, and inference layers — including making an ap
 - **[saem](https://github.com/iyulab/saem)** - On-premises cross-system intelligence layer — connects data scattered across existing line-of-business systems into one ontology and answers with cited paths, read-only, ownership staying with the source systems
 
 ### 📄 RAG Pipeline — Flux Ecosystem
-End-to-end Retrieval-Augmented Generation pipeline: Ingest → Parse → Preprocess → Index → Search.
+End-to-end Retrieval-Augmented Generation pipeline: Ingest → Parse → Preprocess → Index → Search. Shared contracts live in [flux-abstractions](https://github.com/iyulab/flux-abstractions).
 - **[FluxFeed](https://github.com/iyulab/FluxFeed)** - .NET document ingestion pipeline for RAG — tracks a folder of files in a git-backed vault, extracts and chunks them, and keeps a vector index in sync
 - **[FileFlux](https://github.com/iyulab/FileFlux)** - Transform PDF, DOCX, HWP, and more into RAG-optimized chunks via a 5-stage pipeline with Rust-based FFI readers
 - **[WebFlux](https://github.com/iyulab/WebFlux)** - Crawl, extract, and chunk web content into RAG-ready formats with interface-based AI service integration
@@ -70,8 +71,18 @@ High-performance document extraction libraries written in Rust.
 - **[undoc](https://github.com/iyulab/undoc)** - Extract DOCX, XLSX, and PPTX into Markdown, plain text, or JSON with CJK support and .NET/Python bindings
 - **[unhwp](https://github.com/iyulab/unhwp)** - Convert Korean HWP/HWPX documents to Markdown, plain text, and JSON with streaming API and .NET/Python bindings
 - **[unrefine](https://github.com/iyulab/unrefine)** - Lossless, idempotent markdown shape-refinement pass for the un\* document extraction family
-- **[uncad](https://github.com/iyulab/uncad)** - Parse, render (SVG/PNG), and write CAD DWG/DXF files — safe Rust FFI bindings over LibreDWG
 - **[pageseer](https://github.com/iyulab/pageseer)** - Rasterize PDF, Office, and HWP/HWPX documents into per-page PNG/JPEG images via a unified pipeline
+
+### 📐 CAD Drawing Toolkit (Rust)
+Deterministic tools for 2D CAD drawings, built to be handed to an agent — no AI inside.
+- **[uncad](https://github.com/iyulab/uncad)** - Parse, render (SVG/PNG), and write CAD DWG/DXF files — safe Rust FFI bindings over LibreDWG
+- **[uncad-model](https://github.com/iyulab/uncad-model)** - Neutral entity model for 2D drawings — every entity carries a reference ID, provenance, and confidence
+- **[undxf](https://github.com/iyulab/undxf)** - Pure-Rust ASCII DXF reader into the uncad-model entity model
+- **[iron-scout-cad](https://github.com/iyulab/iron-scout-cad)** - Compact semantic summary of a drawing, and resolution of "this spot" into an entity reference
+- **[iron-hand-cad](https://github.com/iyulab/iron-hand-cad)** - Exact geometric edits — entity reference, verb, and parameters in, a new drawing state out
+- **[iron-diff-cad](https://github.com/iyulab/iron-diff-cad)** - Numeric diff between two drawing states — exact change sets for revision comparison and edit verification
+- **[iron-render-cad](https://github.com/iyulab/iron-render-cad)** - Render drawing models to SVG/PNG, including change overlays (redlines)
+- **[iron-pack-cad](https://github.com/iyulab/iron-pack-cad)** - Package drawings into files that LLM/VLM agents can read
 
 ### ⚙️ High-Performance Industrial Libraries
 Domain-agnostic optimization and analytics libraries for manufacturing and logistics.
@@ -105,6 +116,13 @@ Web components and UI libraries.
 - **[canvas-kit](https://github.com/iyulab/canvas-kit)** - Framework-neutral canvas library for visual editing — drag/resize/rotate, undo/redo, Konva.js designer, and lightweight HTML viewer
 - **[Declart](https://github.com/iyulab/declart)** - Prose-first diagram library — declare structure in TOML/JSON, get publication-ready SVG output via Rust/WASM engine with VS Code live preview
 
+### 🪟 Desktop App Building Blocks
+Reusable pieces for Tauri and Electron desktop apps.
+- **[tauri-kit](https://github.com/iyulab/tauri-kit)** - Small crates for what Tauri apps end up writing themselves — OS credential store, well-behaved sidecar processes, crash-safe file writes, folder watching, content-free diagnostics, and WebView2 checks
+- **[electron-kit](https://github.com/iyulab/electron-kit)** - Platform adapters for Electron's main process — file dialogs, the standard application menu, and auto-update lifecycle
+- **[desktop-compact](https://github.com/iyulab/desktop-compact)** - Compact-density UI primitives for desktop apps — framework-neutral Lit custom elements, no built-in strings, token-based theming
+- **[desktop-patterns](https://github.com/iyulab/desktop-patterns)** - App-shell and layout patterns assembled on desktop-compact — every content region a slot
+
 ### 📝 Docs & Publishing
 - **[canopy](https://github.com/iyulab/canopy)** - Publishing renderer that turns a tree of markdown notes into a static website — stateless, app-agnostic, self-hostable
 - **[canopy-page](https://github.com/iyulab/canopy-page)** - Authoring pipeline for documentation sites: one settings file, integrity checks, and a build
@@ -114,6 +132,9 @@ General-purpose libraries and utilities for developers across languages.
 - **[m3l](https://github.com/iyulab/m3l)** - Markdown-based data modeling language — define schemas in plain Markdown, parsed into AST with models, enums, interfaces, inheritance, and multi-file imports
 - **[mdd-booster](https://github.com/iyulab/mdd-booster)** - Model-driven code generator — one Markdown-based M3L data model becomes SQL schema files, EF Core entities and DbContext, and OData/GraphQL registration code
 - **[docket](https://github.com/iyulab/docket)** - Work-queue service for headless workers — pull-model coordination for agent sessions spread across machines and repositories
+- **[claude-plugins](https://github.com/iyulab/claude-plugins)** - Claude Code plugins for library maintainers — a thin governance layer that rides Claude Code's native loop instead of wrapping it
+- **[local-origin](https://github.com/iyulab/local-origin)** - Give a local web page its own origin in a .NET app — serve it, keep what it saves, and try it against a copy of the real state before it is trusted
+- **[iyu-conventions-tests](https://github.com/iyulab/iyu-conventions-tests)** - Convention checks for .NET libraries, run from a repository's own test project — unread options, message language, missing cancellation tokens, and flag-style failure returns
 - **[BareChat](https://github.com/iyulab/BareChat)** - Ultra-lightweight, embeddable chat module for .NET — single-DLL, in-process, zero-infra. Slack-style channel chat mounted with one line of middleware; embedded UI reused across web/PWA and WPF (WebView2), with SignalR realtime and VAPID web push
 - **[cronex](https://github.com/iyulab/cronex)** - Extended cron expressions for .NET — timezone, interval, one-shot, jitter, stagger, window, and expiry in a single string, plus a minimal trigger engine. Zero-dependency core
 - **[KoreanHolidays.NET](https://github.com/iyulab/KoreanHolidays.NET)** - Korean public holidays (including substitute holidays) for .NET — dependency-free (BCL only), multi-targets net8/9/10
