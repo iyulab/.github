@@ -54,7 +54,6 @@ Ontology-driven storage, schema, and inference layers — including making an ap
 - **[Eyu](https://github.com/iyulab/Eyu)** - Source-agnostic ontology inference engine — turns declared structure and raw records into proposed entities, relations, and grounded claims that cite the records backing them
 - **[Formology](https://github.com/iyulab/Formology)** - Form-first development — treat the document as the domain model so a paper record's entities and relationships survive into the software instead of collapsing into CRUD tables
 - **[vivarium](https://github.com/iyulab/vivarium)** - Sandboxed runtime for AI-generated UI — render untrusted generated code safely, with stable element identity and inspection built in. Changeset contract, agent harness, and lifecycle staging live in the sibling `vivarium-*` repositories
-- **[bohm-runtime](https://github.com/iyulab/bohm-runtime)** - Local-first application runtime — executes a declaratively described application, sandboxes generated code, and applies changes only as reviewed change sets, with existing data preserved. Runs on a workstation or headless on a server
 - **[saem](https://github.com/iyulab/saem)** - On-premises cross-system intelligence layer — connects data scattered across existing line-of-business systems into one ontology and answers with cited paths, read-only, ownership staying with the source systems
 
 ### 📄 RAG Pipeline — Flux Ecosystem
