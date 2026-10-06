@@ -9,6 +9,7 @@ On-premises AI platforms for industrial and enterprise operations.
 - **[U-Sphere](https://marketplace.microsoft.com/en-us/product/iyulab1591071412301.u_sphere_app)** - E2E Unified AI Knowledge Service Platform
 - **[U-MES](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/iyulab1591071412301.u_mes?tab=Overview)** - Manufacturing Execution System
 - **[U-CMMS](https://iyulab.com/solutions/u-cmms)** - Computerized Maintenance Management System
+- **[U-Draw](https://draw.u-platform.kr)** - Drawing AI for manufacturers who work from received drawings — every value read carries its source, every change is proven by numbers, and proposals stay as redlines over the original; quoting first, from order intake through inspection, on-premises
 - **[U-Vision](https://github.com/iyulab/U-Vision)** - Universal AI vision inspection PWA — VLM triages from day one, a dedicated ML model progressively takes over verdicts via a reliability flywheel; on-premises, zero external egress
 - **[U-Board](https://github.com/iyulab/U-Board)** - Spatial dashboard authoring middleware — build data-bound views on a floor plan, network diagram, or map and embed them anywhere on the web, against any source system through its adapter surface
 
