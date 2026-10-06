@@ -110,7 +110,7 @@ Machine learning tooling and data management.
 
 ### 🖥️ Frontend & UI Components
 Web components and UI libraries.
-- **[formdown](https://github.com/iyulab/formdown)** - Markdown-like syntax for building interactive HTML forms — framework-agnostic web components with real-time validation
+- **[formdown](https://formdown.dev)** - Markdown-like syntax for building interactive HTML forms — framework-agnostic web components with real-time validation
 - **[u-widgets](https://github.com/iyulab/u-widgets)** - Declarative, data-driven web component library for data visualization — charts, KPIs, gauges, and tables with AI/MCP integration
 - **[flex-table](https://github.com/iyulab/flex-table)** - Schema-agnostic data grid web component — virtual scrolling for 100k+ rows, inline editing, and Excel-compatible clipboard
 - **[canvas-kit](https://github.com/iyulab/canvas-kit)** - Framework-neutral canvas library for visual editing — drag/resize/rotate, undo/redo, Konva.js designer, and lightweight HTML viewer
