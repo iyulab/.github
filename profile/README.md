@@ -43,7 +43,7 @@ Utilities and SDKs for working with large language models.
 ### ⚡ AI Runtime & Automation
 Execution environments and automation platforms for AI-integrated workflows.
 - **[code-beaker](https://github.com/iyulab/code-beaker)** - Multi-runtime sandboxed code execution platform supporting Docker, Deno, Bun, Node.js, and Python via WebSocket and JSON-RPC 2.0
-- **[Pulsa](https://github.com/iyulab/Pulsa)** - Reusable capabilities for AI agents and applications — the parts they need but should not build into their core
+- **[Pulsa](https://github.com/iyulab/Pulsa)** - Parts for building AI agents and AI services — self-contained capabilities behind a language-neutral contract, with the model and host policy left to the product that uses them
 - **[momos](https://github.com/iyulab/momos)** - Autonomous inspection agent for runtime and UX defects static analysis misses — interacts with the running application in a sandbox and reports only reproduced findings, with the evidence
 
 ### 🧬 Ontology & Runtime Change
